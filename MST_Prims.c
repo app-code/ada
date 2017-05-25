@@ -95,7 +95,6 @@ void MST_PRIMS(int (*E)[9],int (*cost)[7],int n,int (*t)[2])
 
 int main()
 {
-	printf("%d\n\n\n",size);
 	int E[][9] = {{1,2},{2,3},{2,7},{3,4},{4,5},{4,7},{5,6},{5,7},{6,1}};
 	int cost[][7] = {{0,28,INF,INF,INF,10,INF},
 					{28,0,16,INF,INF,INF,14},
